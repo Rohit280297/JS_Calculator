@@ -1,0 +1,38 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+</head>
+<body>
+	<div class="cal_div">
+	<input type="text" name="result" id="result" placeholder="0" value="">
+		<div class="button_grp">
+			<div id="functions">
+			     <input type="button"  id="clear" name="clear" value="Clear" onclick="clearAll();">
+			     <input type="button"  id="bckspace" name="bckspace" value="Backspace" onclick="backSpace();">
+		    </div>
+		    <div id="nums">
+			<input type="button" name="btn_1" value=1 onClick="displayNum(value)">
+			<input type="button" name="btn_2" value=2 onClick="displayNum(value)">
+			<input type="button" name="btn_3" value=3 onClick="displayNum(value)">
+			<input type="button" name="sum" value="+" onClick="displayNum(value)">
+			<input type="button" name="btn_4" value=4 onClick="displayNum(value)">
+			<input type="button" name="btn_5" value=5 onClick="displayNum(value)">
+			<input type="button" name="btn_6" value=6 onClick="displayNum(value)">
+			<input type="button" name="diff" value="-" onClick="displayNum(value)">
+			<input type="button" name="btn_7" value=7 onClick="displayNum(value)">
+			<input type="button" name="btn_8" value=8 onClick="displayNum(value)">
+			<input type="button" name="btn_9" value=9 onClick="displayNum(value)">
+			<input type="button" name="product" value="*" onClick="displayNum(value)">
+			<input type="button" name="br_open" value="(" onClick="displayNum(value)">
+			<input type="button" name="btn_0" value=0 onClick="displayNum(value)">
+			<input type="button" name="br_close" value=")" onClick="displayNum(value)">
+			<input type="button" name="division" value="/" onClick="displayNum(value)">	
+			<input type="button" name="decimal" value="." onClick="displayNum(value)">
+			<input type="button" name="modulo" value="%" onClick="displayNum(value)">
+			<input type="button" name="equals" id="equals" value="=" onclick='calculate()'>
+           </div>		
+		</div>
+	</div>
+</body>
+<script src="calculator.js"></script>
+</html>
