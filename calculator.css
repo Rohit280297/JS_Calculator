@@ -4,7 +4,7 @@ body{
 }
 
 .cal_div{
-	width: 30%;
+	width: 40%;
 	margin: auto;
 	text-align: center;
 	background-color: #eee;
@@ -16,7 +16,7 @@ body{
 
 .cal_div #result{
 	width: 80%;
-	margin: 20px auto;
+	margin: 30px auto;
 	padding: 10px;
 	text-align: right;
 	font-size: 20px;
@@ -42,7 +42,7 @@ body{
 	box-shadow: 2px 2px 2px black;
 }
 .cal_div #nums #equals{
-	width: 43%;
+	width: 44%;
 	margin:5px;
 	background-color: #e6e6e6;
 }
